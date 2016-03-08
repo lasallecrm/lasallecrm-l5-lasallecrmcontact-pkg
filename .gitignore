@@ -1,9 +1,10 @@
 vendor/
 node_modules/
+.idea
+build
+composer.lock
+GPL_HEADER.txt
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
 
 # Laravel 5 & Lumen specific
 bootstrap/cache/
