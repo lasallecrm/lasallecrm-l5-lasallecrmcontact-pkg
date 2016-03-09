@@ -129,12 +129,6 @@ class LasallecrmcontactController extends FrontendBaseController
             $i++;
         }
 
-
-        //echo "<pre>";
-        //print_r($contacts);
-        //dd("moh");
-
-
         return view('lasallecrmcontact::multiple_crmcontact_basic', [
             'contacts'  => $contacts,
             'Config'    => Config::class,
