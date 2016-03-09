@@ -32,4 +32,32 @@
 
 return [
 
+    /*
+    |--------------------------------------------------------------------------
+    | Single Contact Display: Allowed Peoples' ID's
+    |--------------------------------------------------------------------------
+    |
+    | For the single contact display, what are the people ID's allowed to display?
+    |
+    | These ID's are the ID field in the PEOPLES table
+    |
+    */
+    'single_contact_display_people_id_allowed' => [
+        1
+    ],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Multiple Contact Display: Which Peoples' ID to display?
+    |--------------------------------------------------------------------------
+    |
+    | For the multiple contact display, what are the people ID's that you want display?
+    |
+    | These ID's are the ID field in the PEOPLES table
+    |
+    */
+    'multiple_contact_display_people_ids' => [
+        1,2
+    ],
+
 ];

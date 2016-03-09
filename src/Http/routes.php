@@ -39,4 +39,22 @@ $router->get('admin/login', [
     'uses' => 'AdminAuth\AdminLoginController@getLogin'
 ]);
 */
+$router->get('admin/lasallecrmcontacttest', function(){
+    echo "<h1>lasallecrmcontacttest</h1>";
+});
+
+/**
+ * frontend routes
+ */
+$router->get('/lasallecrmcontact/{id}', 'LasallecrmcontactController@show');
+
+$router->get('/lasallecrmcontacts/lasallecrmmultiplecontacts', 'LasallecrmcontactController@multipleshow');
+
+
+
+
+
+
+
+
 
