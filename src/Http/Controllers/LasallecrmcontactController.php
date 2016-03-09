@@ -90,10 +90,11 @@ class LasallecrmcontactController extends FrontendBaseController
         $telephone = $this->peopleRepository->getFirstWorkTelephone($peopleID);
 
         return view('lasallecrmcontact::single_crmcontact_basic', [
-            'people'    => $people,
-            'email'     => $email,
-            'telephone' => $telephone,
-            'Config'    => Config::class,
+            'people'                              => $people,
+            'email'                               => $email,
+            'telephone'                           => $telephone,
+            'single_contact_display_contact_form' => Config::get('lasallecrmcontact.single_contact_display_contact_form'),
+            'Config'                              => Config::class,
         ]);
     }
 

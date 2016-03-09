@@ -48,6 +48,18 @@ return [
 
     /*
     |--------------------------------------------------------------------------
+    | Single Contact Display: Display the contact form?
+    |--------------------------------------------------------------------------
+    |
+    | For the single contact display, do you want to display the contact form?
+    |
+    | THIS FORM USES MY LaSalleCMS Contact PACKAGE!
+    |
+    */
+    'single_contact_display_contact_form' => true,
+
+    /*
+    |--------------------------------------------------------------------------
     | Multiple Contact Display: Which Peoples' ID to display?
     |--------------------------------------------------------------------------
     |
