@@ -4,6 +4,8 @@
 
     @include('nav.nav_top')
 
+    <header style="height:100px;"></header>
+
 
     <div class="container">
 
@@ -60,7 +62,7 @@
     </div>
 </div>
 
-@if ($single_contact_display_contact_form)
+    @if (($single_contact_display_contact_form) && ($email != "there is no email address"))
 
     <div class="container">
         <div class="row">

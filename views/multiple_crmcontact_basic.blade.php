@@ -76,6 +76,7 @@
 
 @include('nav.nav_top')
 
+<header style="height:100px;"></header>
 
 {{-- http://bootsnipp.com/snippets/featured/responsive-simple-testimonials --}}
 @foreach ($contacts as $contact)
@@ -98,7 +99,7 @@
 
                         <div class="pull-left">
                             <span class="testimonials-name">
-                                <a href="{{{ Config::get('app.url') }}}/index.php/lasallecrmcontact/{!! $contact['link'] !!}">
+                                <a href="{{{ Config::get('app.url') }}}/lasallecrmcontact/{!! $contact['link'] !!}">
                                     {!! $contact['first_name'] !!} {!! $contact['middle_name'] !!} {!! $contact['surname'] !!}</span>
                                 </a>
                             <span class="testimonials-post">{!! $contact['position'] !!}</span>
