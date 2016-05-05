@@ -30,18 +30,11 @@
 
 
 
-/*
+/**
  * Admin routes
  */
-/*
-$router->get('admin/login', [
-    'as'   => 'admin.login',
-    'uses' => 'AdminAuth\AdminLoginController@getLogin'
-]);
-*/
-$router->get('admin/lasallecrmcontacttest', function(){
-    echo "<h1>lasallecrmcontacttest</h1>";
-});
+// NO ADMIN ROUTES!
+
 
 /**
  * frontend routes
