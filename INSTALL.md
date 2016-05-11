@@ -1,7 +1,7 @@
 # INSTALLATION
 
 ## Summary 
-Optional LaSalleCRM package. 
+LaSalleCRM contact package. 
 
 
 ## composer.json:

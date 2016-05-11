@@ -39,7 +39,7 @@ class Version
      *
      * @var string
      */
-    const VERSION = '1.0.1';
+    const VERSION = '1.2.0';
 
 
     /**
