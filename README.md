@@ -17,6 +17,8 @@ Create contact pages based on people in the LaSalle CRM database.
 If you discover any security related issues, please email Bob Bloom at "info at southlasalle dot com" instead of using the issue tracker.
 
 
+[MUST READ CAVEAT ABOUT THIS PACKAGE at https://lasallesoftware.ca/caveat_about_lasalle_software_version_one.php](https://lasallesoftware.ca/caveat_about_lasalle_software_version_one.php)
+
 ## Links
 
 * [CONTRIBUTING](CONTRIBUTING.md)
